@@ -16,7 +16,7 @@ public class Sensor extends Medizingeraet {
         } else {
             this.messen();
             if (this.messwert > super.alarmSchwellwert) {
-                System.out.println("Alarm! Messwer uebersteigt Schwellwert.");
+                System.out.println("Alarm! Messwert uebersteigt Schwellwert.");
             } else {
                 System.out.println("Messwert ist in Ordnung.");
             }
