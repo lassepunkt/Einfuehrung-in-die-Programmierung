@@ -1,8 +1,8 @@
 public class Gummiwuerfel implements Produkt {
     private double breite;
-	private double laenge;
-	private double hoehe;
-	private double pressfaktor;
+    private double laenge;
+    private double hoehe;
+    private double pressfaktor;
     
     public Gummiwuerfel(double laenge) {
         this.breite = laenge;
